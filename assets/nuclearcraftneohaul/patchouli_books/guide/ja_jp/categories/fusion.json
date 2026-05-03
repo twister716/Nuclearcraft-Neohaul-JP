@@ -1,6 +1,6 @@
 {
-	"name": "Nuclear Fusion (WIP)",
-	"description": "$(l)Fusing the atom, for fun and ultimate glory.",
+	"name": "核融合",
+	"description": "$(l)原子を融合させる。娯楽、そして究極の栄光のために。",
 	"icon": "nuclearcraftneohaul:copper_solenoid",
 	"parent": "nuclearcraftneohaul:multiblocks",
 	"sortnum": 1

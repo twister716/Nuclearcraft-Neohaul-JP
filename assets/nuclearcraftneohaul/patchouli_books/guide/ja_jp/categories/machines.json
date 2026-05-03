@@ -1,6 +1,6 @@
 {
-    "name": "Machines",
-    "description": "$(l)Like a well-oiled machine.",
+    "name": "機械",
+    "description": "$(l)油をさした機械のように。",
     "icon": "nuclearcraftneohaul:machine_interface",
     "sortnum": 1
 }

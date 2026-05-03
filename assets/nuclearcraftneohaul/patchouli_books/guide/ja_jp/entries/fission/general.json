@@ -1,5 +1,5 @@
 {
-    "name": "General Info",
+    "name": "共通情報",
     "icon": "nuclearcraftneohaul:solid_fuel_fission_controller",
     "category": "nuclearcraftneohaul:fission",
     "sortnum": 0,
@@ -7,34 +7,34 @@
         {
             "anchor": "intro",
             "type": "text",
-            "text": "$(thing)Fission reactors$() generate heat from the self-sustained nuclear reaction of fission fuel. This heat is ultimately transformed into electricity. The method of electricity generation depends on the type of reactor being built."
+            "text": "$(thing)核分裂炉$()は、核分裂燃料の自己持続的な核反応で熱を生成させる原子反応炉です。この熱は、最終的に電気に変換されます。電気への変換方法 = 発電方法は、原子炉の種類によって異なります。"
         },
         {
             "anchor": "casing",
             "type": "blocks/2",
-            "header": "Reactor Casing",
+            "header": "核分裂炉用外装",
             "block1": "nuclearcraftneohaul:fission_reactor_casing",
             "block2": "nuclearcraftneohaul:fission_glass",
-            "text": "The interior components of the reactor are contained within a rectangular prism. The reactor must have edges consisting of $(item)Reactor Casing$(), while the walls of the reactor can be $(item)Reactor Glass$(), Reactor Casing, or both."
+            "text": "原子炉の内部部品は直方体の内部に収められています。原子炉の辺は$(item)核分裂炉用外装$()である必要がありますが、原子炉の壁面は$(item)核分裂炉用ガラス$()、$(item)核分裂炉用外装$()、またはその両方を使用することができます。"
         },
         {
             "anchor": "controller",
             "type": "blocks/2",
-            "header": "Reactor Controllers",
+            "header": "核分裂炉制御装置",
             "block1": "nuclearcraftneohaul:solid_fuel_fission_controller",
             "block2": "nuclearcraftneohaul:molten_salt_fission_controller",
-            "text": "The reactor type is determined by the $(item)Reactor Controller$(), installed in one of the reactor walls. Without a controller, the reactor multiblock will not form. It's GUI will show information about the reactor, such as the averages of relevant components' stats."
+            "text": "原子炉の種類は、原子炉の壁面に組み込まれた$(item)核分裂炉制御装置$()によって決まります。制御装置が無い場合、原子炉マルチブロックは形成されません。制御装置GUIには、関連する部品の統計情報の平均値など、原子炉に関する情報が表示されます。"
         },
         {
             "anchor": "clusters",
             "type": "text",
-            "title": "Reactor Clusters",
-            "text": "$(thing)Clusters$() are connected groups of heat-conducting components. These components, which can be in an active or idle state only, conduct heat when active. Passive blocks such as $(l:fission/general#conductor)Conductor$() blocks always do, while $(l:fission/general#moderator)Moderators$() and $(l:fission/general#reflector)Reflectors$() do not make up clusters."
+            "title": "核分裂炉熱伝導群",
+            "text": "$(thing)熱伝導群 / クラスター$()は、隣接した熱伝導性部品のグループのことです。これらは動作状態と待機状態の二つの状態を持ち、動作状態の時にのみ熱を伝えます。ただし、$(l:fission/general#conductor)熱伝達部品$()ブロックなどのパッシブ(能動)ブロックは常に熱を伝えます。一方、$(l:fission/general#moderator)減速部品$()や$(l:fission/general#reflector)反射部品$()は熱伝導群を形成しません。"
         },
         {
             "type": "text",
-            "title": "Reactor Clusters Cont.",
-            "text": "The components in a cluster share a combined heat level, and will collectively overheat if they get too hot. If the reactor contains a cluster that is not connected to the casing, the multiblock won't form."
+            "title": "核分裂炉熱伝導群の続き",
+            "text": "熱伝導群内の部品は熱を共有しており、温度が高くなりすぎると、全体がオーバーヒートします。原子炉内に外装に繋がっていない熱伝導群が存在する場合、原子炉マルチブロックは形成されません。"
         },
         {
             "anchor": "conductor",

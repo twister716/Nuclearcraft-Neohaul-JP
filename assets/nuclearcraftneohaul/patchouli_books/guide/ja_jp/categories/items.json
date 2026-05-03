@@ -1,6 +1,6 @@
 {
-  "name": "Items",
-  "description": "$(l)The tools of the trade.",
+  "name": "アイテム",
+  "description": "$(l)商売道具。",
   "icon": "nuclearcraftneohaul:geiger_counter",
   "sortnum": 1
 }

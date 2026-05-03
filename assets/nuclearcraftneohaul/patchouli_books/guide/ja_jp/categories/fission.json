@@ -1,6 +1,6 @@
 {
-	"name": "Nuclear Fission",
-	"description": "$(l)Splitting the atom, for fun and profit.",
+	"name": "核分裂",
+	"description": "$(l)原子を分裂させる。娯楽、そして利益のために。",
 	"icon": "nuclearcraftneohaul:solid_fuel_fission_controller",
 	"parent": "nuclearcraftneohaul:multiblocks",
 	"sortnum": 0

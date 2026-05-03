@@ -1,6 +1,6 @@
 {
-    "name": "Heat Exchanger",
-    "description": "$(l)\"Classical thermodynamics is the only physical theory of universal content which I am convinced will never be overthrown...\"$(br2)- Albert Einstein",
+    "name": "熱交換器",
+    "description": "$(l)古典熱力学は、基本概念の適用範囲内において、決して覆されることがないと確信できる唯一の普遍的物理理論である$(br2)- アルベルト・アインシュタイン",
     "icon": "nuclearcraftneohaul:heat_exchanger_controller",
     "parent": "nuclearcraftneohaul:multiblocks",
     "sortnum": 2
