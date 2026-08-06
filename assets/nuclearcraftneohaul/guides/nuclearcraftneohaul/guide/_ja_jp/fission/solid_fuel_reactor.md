@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Solid Fuel Fission Reactor
+  title: 固形燃料核分裂炉
   icon: solid_fuel_fission_controller
   parent: fission/fission.md
 
@@ -8,20 +8,20 @@ item_ids:
   - solid_fuel_fission_controller
 ---
 
-# Solid Fuel Fission Reactor
+# 固形燃料核分裂炉
 
-The Solid Fuel fission Reactor (SFR) uses solid fissio fuel in the form of pellets. The generated heat turns a liquid coolant into a gas for use in a [Turbine](../multiblocks/turbine.md).
+固形燃料核分裂炉（SFR）は、ペレット状の固形核分裂燃料を用いた核分裂炉である。反応によって発生した熱は液体冷却材を気化させ、[タービン](../multiblocks/turbine.md)で電気に変換される。
 
-#### Fuel
+#### 核反応燃料
 
-The SFR use fuel pellets such which are placed in <ItemLink id="fission_fuel_cell" /> through a <ItemLink id="fission_fuel_cell_port" />
+SFRでは、アイテムの形態を取る核燃料ペレットを核反応燃料として使用し、核燃料は<ItemLink id="fission_fuel_cell_port" />を通して<ItemLink id="fission_fuel_cell" />に搬入される。
 
-For example LEU-235:
+例として低濃縮ウラン(LEU)235を使用する場合：
 <Row>
 <RecipesFor id="leu_235" />
 </Row>
 
-Can be made into the following Fuel Pellets:
+以下の核燃料ペレットに加工可能である：
 
 <ItemGrid>
 <ItemIcon id="leu_235_za" />
@@ -29,8 +29,8 @@ Can be made into the following Fuel Pellets:
 <ItemIcon id="leu_235_ni" />
 </ItemGrid>
 
-Each have their own properties requiring different reactors for the same underlying fuel type
+それぞれに固有の特性が存在しており、同じ核燃料種でも異なる構成の原子炉が必要となる。
 
-#### Cooling
+#### 冷却
 
-SFR are typically cooled with <FluidLink id="minecraft:water" /> to create <FluidLink id="high_pressure_steam" /> which is can be turned into FE by a [Turbine](../multiblocks/turbine.md).
+SFRは通常、<FluidLink id="minecraft:water" />を冷却材として使用する。使用された<FluidLink id="minecraft:water" />は<FluidLink id="high_pressure_steam" />へと気化し、[タービン](../multiblocks/turbine.md)によって電気へと変換される。

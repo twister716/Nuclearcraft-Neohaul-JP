@@ -3,6 +3,6 @@ navigation:
   title: Index/Table of Contents
   position: 0
 ---
-# Start Page
+# スタートページ
 
-NuclearCraft (NC) is a tech mod focused on nuclear power generation. Most of the mod's features and mechanics are inspired by real equivalents, though there are many simplifications, abstractions, and deviations from reality for the sake of interesting gameplay.
+NuclearCraft（NC）は、原子力発電に焦点を当てた工業/技術系Modです。MODの機能や仕組みのほとんどは、現実の原子力発電所を参考にしています。ですが、ゲームプレイを面白くするため、多くの簡略化、抽象化、現実からの逸脱があります。ご了承ください。
